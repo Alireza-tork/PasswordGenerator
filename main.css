@@ -23,6 +23,8 @@ body {
 
 form {
   background-color: #1A0449;
+  max-width: 400px;
+  max-height: 415px;
   width: 50%;
   height: 60vh;
   padding: 20px;
