@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+label {
+  color: #F5F5F5;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+body {
+  background-color: #0D0221;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+form {
+  background-color: #1A0449;
+  width: 50%;
+  height: 60vh;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 5px #FF00C8;
+  display: flex;
+  flex-direction: column;
+}
+form h2 {
+  color: #FF00C8;
+  padding: 0 0 20px 0;
+  text-shadow: 0 0 5px #FF00C8;
+  text-align: center;
+}
+form .lengths {
+  padding: 15px 0;
+}
+form .lengths #length {
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  padding: 3px;
+  margin-left: 5px;
+  background-color: #00E5FF;
+  font-weight: 700;
+}
+form .checkbox {
+  margin: 0 10px;
+}
+form #generate {
+  background-color: #FF00C8;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+  box-shadow: 0 0 5px #FF00C8;
+}
+form #generate:active {
+  background-color: #F5F5F5;
+}
+form #password {
+  margin: 20px 0;
+  width: 80%;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: #00E5FF;
+  box-shadow: 0 0 5px #FF00C8;
+  outline: none;
+}
+form #copy {
+  width: 15%;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 0 5px #FF00C8;
+  transition: all cubic-bezier(0.77, 0, 0.175, 1) 0.5s;
+}
+form #copy:hover {
+  background-color: #00E5FF;
+}/*# sourceMappingURL=main.css.map */
